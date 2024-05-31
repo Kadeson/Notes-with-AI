@@ -1,0 +1,3 @@
+C:/Users/fenix/CLionProjects/NoteApp_final_v1.4/cmake-build-debug/CMakeFiles/NoteApp.dir
+C:/Users/fenix/CLionProjects/NoteApp_final_v1.4/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/fenix/CLionProjects/NoteApp_final_v1.4/cmake-build-debug/CMakeFiles/rebuild_cache.dir

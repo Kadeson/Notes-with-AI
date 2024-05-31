@@ -1,11 +1,8 @@
-#include <gtk/gtk.h>
-#include "NoteApp.hpp"
+#include "noteapp.hpp"
 
 int main(int argc, char *argv[]) {
     gtk_init(&argc, &argv);
-
-    NoteApp app;
-    app.run();
-
+    NoteApp *app = NoteApp::getInstance();
+    app->run();
     return 0;
 }

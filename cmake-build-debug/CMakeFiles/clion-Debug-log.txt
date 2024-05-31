@@ -1,36 +1,7 @@
-"C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/msys64/mingw64/bin/mingw32-make.exe -DCMAKE_C_COMPILER=C:/msys64/mingw64/bin/gcc.exe -DCMAKE_CXX_COMPILER=C:/msys64/mingw64/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" -S C:\Users\userrr\Desktop\практика -B C:\Users\userrr\Desktop\практика\cmake-build-debug
-CMake Deprecation Warning:
-  Support for "Extra Generators" like
-
-    CodeBlocks
-
-  is deprecated and will be removed from a future version of CMake.  IDEs may
-  use the cmake-file-api(7) to view CMake-generated project build trees.
-
-
--- The C compiler identification is GNU 14.1.0
--- The CXX compiler identification is GNU 14.1.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: C:/msys64/mingw64/bin/gcc.exe - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: C:/msys64/mingw64/bin/g++.exe - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
+"C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\fenix\CLionProjects\NoteApp_final_v1.4 -B C:\Users\fenix\CLionProjects\NoteApp_final_v1.4\cmake-build-debug
 -- Found PkgConfig: C:/msys64/mingw64/bin/pkg-config.exe (found version "2.2.0") 
 -- Checking for module 'gtk+-3.0'
---   Package 'gtk+-3.0' not found
-CMake Error at C:/Program Files/JetBrains/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPkgConfig.cmake:619 (message):
-  The following required packages were not found:
-
-   - gtk+-3.0
-
-Call Stack (most recent call first):
-  C:/Program Files/JetBrains/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPkgConfig.cmake:841 (_pkg_check_modules_internal)
-  CMakeLists.txt:12 (pkg_check_modules)
-
-
--- Configuring incomplete, errors occurred!
+--   Found gtk+-3.0, version 3.24.42
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/fenix/CLionProjects/NoteApp_final_v1.4/cmake-build-debug
